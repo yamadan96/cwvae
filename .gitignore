@@ -1,0 +1,14 @@
+# Pythonキャッシュディレクトリ
+__pycache__/
+loggers/__pycache__/
+
+# ログファイル
+logs/
+
+# ダウンロードディレクトリ
+minerl_navigate/
+
+# Weights & Biasesの出力
+wandb/
+
+../
