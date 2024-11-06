@@ -35,6 +35,7 @@ The datasets will automatically be downloaded into the `--datadir` directory.
 ```sh
 python3 train.py --logdir /path/to/logdir --datadir /path/to/datasets --config configs/<dataset>.yml 
 python3 train.py --logdir logs/ --datadir minerl_navigate/ --config configs/minerl.yml 
+python3 train_oops.py --logdir logs/ --datadir datadir/ --config configs/oops.yml
 ```
 
 The evaluation script writes open-loop video predictions in both PNG and NPZ format and plots of PSNR and SSIM to the data directory.
